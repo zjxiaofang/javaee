@@ -9,15 +9,21 @@
 <html>
 <head>
     <title>登陆</title>
+    <link rel = "stylesheet" href="style.css">
 </head>
-<body>
-<form action="login" method="post">
-    请输入用户名： <input type="text" name="userName">
-    <br/>
-    密码：<input type="password" name="password">
-    <br/>
-    <input type="submit" value="提交">
-</form>
 
+<body>
+<form action="login" method="post" class="login-form">
+    <h1>登陆页面</h1>
+    <div class="txtb">
+        <span data-placeholder="用户名"></span>
+        <input type="text" name="userName">
+    </div>
+    <div class="txtb">
+        <span data-placeholder="密码"></span>
+        <input type="password" name="password">
+    </div>
+    <input type="submit" class="logbtn" value="登陆">
+</form>
 </body>
 </html>

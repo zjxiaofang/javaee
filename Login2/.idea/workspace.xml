@@ -17,8 +17,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -31,15 +33,22 @@
   </component>
   <component name="ProjectId" id="1SlkMHafivvli682sY0zURkeVnT" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/by/pangu/util/filter" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/by/pangu/util/filter" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
     </key>
   </component>
@@ -55,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConvertMoney">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.24">
     <configuration name="ConvertMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.by.Test.ConvertMoney" />
       <module name="Login2" />
@@ -73,7 +82,7 @@
       <deployment>
         <artifact name="Login2:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/Login2_war_exploded" />
+            <option name="CONTEXT_PATH" value="/Login2" />
           </settings>
         </artifact>
       </deployment>
@@ -85,6 +94,39 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54708" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -107,6 +149,10 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ConvertMoney" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.24" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ConvertMoney" />
@@ -126,11 +172,37 @@
       <workItem from="1572145527760" duration="4794000" />
       <workItem from="1572155213724" duration="1960000" />
       <workItem from="1572215788576" duration="68000" />
-      <workItem from="1572253487330" duration="12362000" />
+      <workItem from="1572253487330" duration="14526000" />
+      <workItem from="1572312834671" duration="1688000" />
+      <workItem from="1572315198130" duration="15054000" />
+      <workItem from="1572648532616" duration="8461000" />
+      <workItem from="1572661337996" duration="3405000" />
+      <workItem from="1572676275814" duration="15110000" />
+      <workItem from="1572782203798" duration="1805000" />
+      <workItem from="1572922060702" duration="53000" />
+      <workItem from="1572929213628" duration="548000" />
+      <workItem from="1572960752244" duration="114000" />
+      <workItem from="1573199694029" duration="2517000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/by/pangu/domain/User.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/success2.jsp</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

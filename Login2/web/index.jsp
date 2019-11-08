@@ -11,6 +11,15 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+
+<%-- <%="<\% %\> \' \""%>--%>
+<%
+  out.print("<"+"%");
+%>
+
+ <%="a"%>
+  <%! int i = 3;%>
+  <%=(new java.util.Date()).toLocaleString()%>
+  <%out.println(i++);%>
   </body>
 </html>
